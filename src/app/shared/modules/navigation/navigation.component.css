@@ -1,0 +1,15 @@
+.navigation{
+    font-family: var(--fuente-principal);
+    @media (min-width:767px){
+        margin-right: 15rem;
+    }
+}
+
+.navigation__link{
+    padding: 0px 1rem;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-size: 2rem;
+    z-index: 5;
+}

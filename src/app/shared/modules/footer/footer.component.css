@@ -1,0 +1,21 @@
+.footer{
+    background-color: var(--negro);
+    margin-top: 3.5rem;
+    padding: 5rem 0px;
+}
+
+.footer__grid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    @media (min-width: 767px){
+        flex-direction: row;
+    }
+}
+
+.footer__copyright{
+    color: white;
+    font-weight: 700;
+    font-size: 2rem;
+}

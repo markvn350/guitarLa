@@ -1,0 +1,30 @@
+.blog__title{
+    font-size: 3.5rem;
+    color: var(--primary);
+    font-weight: 700;
+    margin: 2.5rem 0px;
+    text-align: center;
+}
+
+.blog__contenido{
+   padding: 0.75rem 1.5rem ;
+}
+
+.blog__meta{
+    color: var(--primary);
+    font-size: 1.5rem;
+}
+
+.blog__grid{
+    width: 90%;
+    @media (min-width: 767px){
+        width: 75%;
+    }
+    @media (min-width: 1439px){
+        width: 50%;
+    }
+    margin: 0% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
